@@ -1,0 +1,230 @@
+/* ==============BREADCRUMB============= */
+
+#breadcrumb {
+    background: #f3f3f3;
+    padding: 5px 0;
+}
+
+ul.breadcrumb-list {
+    margin-bottom: 0;
+}
+
+ul.breadcrumb-list li {
+    display: inline-block;
+}
+
+ul.breadcrumb-list li a {
+    display: inline-block;
+    font-size: 11px;
+    color: #565656;
+}
+
+ul.breadcrumb-list li a.active {
+    color: #000000;
+    font-weight: 500;
+}
+
+ul.breadcrumb-list li a:hover {
+    color: #000000;
+    font-weight: 500;
+}
+
+ul.breadcrumb-list li:not(:last-child)::after {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f105";
+    margin: 0 5px;
+    color: #565656;
+    font-size: 11px;
+}
+
+
+/* ==============WP-CONTENT============= */
+
+#wp-content {
+    padding-top: 40px;
+}
+
+#content {
+    padding-top: 0px;
+}
+
+
+/* -------------Featured------------- */
+
+
+/* mainpost */
+
+#content .widget.featured {
+    margin-bottom: 20px;
+}
+
+.widget.featured .widget-body .main-post {
+    flex: 0 1 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-right: 0;
+}
+
+.widget.featured .widget-body .main-post .post-left {
+    flex: 0 1 435px;
+    padding-right: 30px;
+}
+
+.widget.featured .widget-body .main-post .post-right {
+    flex: 0 1 360px;
+}
+
+.widget.featured .widget-body .main-post .post-title {
+    font-size: 24px;
+    font-weight: 500;
+    color: #000000;
+}
+
+.widget.featured .widget-body .main-post a.post-title:hover {
+    color: #01a050;
+}
+
+.widget.featured .widget-body .main-post .post-desc {
+    text-align: justify;
+    font-size: 15px;
+    line-height: 25px;
+    padding-top: 10px;
+}
+
+
+/* end mainpost */
+
+
+/* postlist */
+
+.widget.featured .widget-body ul.post-list {
+    flex: 0 1 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 30px 0 0 0;
+}
+
+.widget.featured .widget-body ul.post-list li {
+    flex: 0 1 380px;
+}
+
+.widget.featured .widget-body ul.post-list .post-title {
+    font-weight: 700;
+}
+
+
+/* end postlist */
+
+
+/* -------------End Featured------------- */
+
+
+/* -------------Secondary------------- */
+
+.widget.secondary .widget-head {
+    margin-bottom: 40px;
+}
+
+.widget.secondary .widget-head h3 {
+    display: none;
+}
+
+.widget.secondary .widget-body ul.post-list {
+    padding: 0;
+}
+
+.widget.secondary .widget-body ul.post-list .post-left {
+    flex: 0 1 265px;
+    /* padding-right: 15px; */
+}
+
+.widget.secondary .widget-body ul.post-list .post-right {
+    flex: 0 1 530px;
+}
+
+.widget.secondary .widget-body ul.post-list li {
+    margin-bottom: 40px;
+}
+
+.widget.secondary .widget-body ul.post-list .post-right .post-title {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.25;
+}
+
+.widget.secondary .widget-body ul.post-list .post-right .published {
+    display: block;
+    font-size: 12px;
+    color: #959595;
+    line-height: 2;
+}
+
+.widget.secondary .widget-body ul.post-list .post-right .published::before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 400;
+    content: "\f017";
+    margin-right: 5px;
+}
+
+.widget.secondary .widget-body ul.post-list .post-right .post-desc {
+    color: #464646;
+    line-height: 1.6;
+    text-align: justify;
+    margin-bottom: 0;
+}
+
+
+/* pagination */
+
+.pagination {
+    margin: 15px 0 20px 0;
+    flex: 0 1 100%;
+    text-align: center;
+}
+
+.pagination ul.page-numbers {
+    display: inline-block;
+    margin: 0 auto;
+}
+
+.pagination ul.page-numbers li {
+    display: inline-block;
+    margin-right: 7px;
+    color: #0b0b0b;
+}
+
+.pagination ul.page-numbers li:first-child {
+    margin-right: 15px;
+}
+
+.pagination ul.page-numbers li a {
+    display: inline-block;
+    width: 35px;
+    padding: 7px 0;
+    border: solid 1px #dedede;
+    text-align: center;
+    /* margin-right: 7px; */
+    color: #0b0b0b;
+    font-size: 13px;
+    transition: border .5s;
+}
+
+.pagination ul.page-numbers li a.active {
+    background: #01a050;
+    color: #ffffff;
+    font-weight: 500;
+}
+
+.pagination ul.page-numbers li a:hover {
+    border-color: #959595;
+}
+
+
+/* end pagination   */
+
+
+/* -------------End Secondary------------- */

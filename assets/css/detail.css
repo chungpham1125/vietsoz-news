@@ -1,0 +1,87 @@
+#wp-content {
+    padding-top: 0;
+}
+
+#sidebar {
+    margin-top: 90px;
+}
+
+
+/* -----------Post Detail------------ */
+
+#content .post-detail h1.post-title {
+    font-size: 26px;
+    font-weight: 500;
+    color: #1f1f1f;
+    padding: 25px 0;
+    margin-bottom: 0;
+}
+
+#content .post-detail .post-thumb {
+    margin-bottom: 40px;
+}
+
+#content .post-detail p {
+    color: #444444;
+    line-height: 1.7;
+    margin-bottom: 1.7em;
+}
+
+#content .post-detail p:last-child {
+    text-align: right;
+    font-size: 15px;
+    font-weight: 500;
+    color: #000000;
+}
+
+
+/* -----------End Post Detail------------ */
+
+
+/* -----------Facebook Intergration------------ */
+
+#content .facebook-areas {
+    margin-bottom: 30px;
+}
+
+#content .facebook-areas .btn-like-share {
+    margin-bottom: 20px;
+}
+
+
+/* -----------End Facebook Intergration------------ */
+
+
+/* -----------Relative News------------ */
+
+#content .widget.related-news {
+    margin-bottom: 20px;
+}
+
+#content .widget.related-news .widget-head h3 {
+    background: none;
+    font-size: 21px;
+    font-weight: 500;
+    color: #1f1f1f;
+    padding: 10px 0;
+}
+
+#content .widget.related-news .widget-body {
+    max-width: 795px;
+}
+
+.widget.related-news .widget-body .post-item .post-thumb {
+    margin-bottom: 15px;
+}
+
+.widget.related-news .widget-body .post-item .post-title {
+    color: #1f1f1f;
+    font-weight: 700;
+}
+
+.widget.related-news .widget-body .post-item .post-title:hover {
+    color: #01a050;
+}
+
+
+/* -----------End Relative News------------ */
